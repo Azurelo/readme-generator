@@ -2,35 +2,58 @@
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const inquirer = require("inquirer");
 const fs = require("fs");
+let filename = "README.md";
 // TODO: Create an array of questions for user input
-const questions = [
+const questionsArray = [
     {
-        question: "What is the title?"
+        type: "input",
+        name: "title",
+        message: "What is the title?"
     },
     {
-        quesiton: "What is the description of your project?"
+        type: "input",
+        name: "description",
+        message: "What is the description of your project?"
     },
     {
-        quesiton: "What is the link to your deployed application?"
+        type: "input",
+        name: "link",
+        message: "What is the link to your deployed application?"
     }, 
     {
-        question:
+        type: "input",
+        name: "contributors",
+        message: "Who are the contributors of your project?"
     },
     {
-
+        type: "input",
+        name: "installation",
+        message: "What are the steps required to install your project if applicable?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "Provide instructions and examples for use here."
+    },
+    {
+        type: "input",
+        name: "license",
+        message: "What license is placed on this project?"
     }];
 
 // TODO: Create a function to write README file
-function writeToFile("READ.me", data) {
-    
-
-}
-
+function writeToFile(filename, data) {
+    fs.writeFile(filename, data, (err) =>
+    err ? console.error(err) : console.log("You successfully created a README.md file."))
+};
 // TODO: Create a function to initialize app
-function init() {
-    generateMarkdown();
-
-}
+function init(){
+    inquirer.prompt(questionsArray)
+    .then(function(response){
+    var myMarkdown = generateMarkdown(response);
+    writeToFile(filename, myMarkdown);
+    });
+};
 
 // Function call to initialize app
 init();
