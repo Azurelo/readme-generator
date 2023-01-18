@@ -37,8 +37,24 @@ const questionsArray = [
     },
     {
         type: "input",
+        name: "tests",
+        message: "Provide what tests were implemented for the projects success."
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your github username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email address?"
+    },
+    {
+        type: "list",
         name: "license",
-        message: "What license is placed on this project?"
+        message: "What license is placed on this project?",
+        choices: ["Apache","BSD-3","GPL","MIT", "Unlicense", "No License"]
     }];
 
 // TODO: Create a function to write README file

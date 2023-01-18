@@ -1,9 +1,11 @@
-# Justus 
+# Justus
 
 ## Description
-1231
+---
+324234
 
 ## 📝 Table of Contents
+---
 - <a href="#description">Description</a>
 - <a href="#installation">Installation</a>
 - <a href="#usage">Usage</a>
@@ -12,16 +14,25 @@
 
 
 ## Link
-2123423
+---
+24234
 
 ## Contributors
-3242342
+---
+324324
 
 ## Usage
-1234234
+---
+234234
 
 ## Installation
-2134234
+---
+234324
 
 ## License
-https://opensource.org/licenses/123423
+---
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+
+  Justus is distributed under the Apache license.
+  More information can be found here: https://opensource.org/licenses/Apache-2.0
+  
