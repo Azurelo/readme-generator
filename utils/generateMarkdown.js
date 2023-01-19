@@ -91,6 +91,7 @@ ${data.installation}
 ---
 ${data.usage}
 ![Project Image](utils/${data.projectImage})
+
 ${data.projectVideo}
 
 ## Contributors

@@ -16,13 +16,14 @@ readme.png
 
 ## Installation
 ---
-Download Node version 16 or lower and run node i inquirer in command line.
+Download Node Version 16
 
 ## Usage
 ---
-Run node index.js in the command line and input information wanted on the readme file.
+Run 'node index.js' in the command line and input information wanted on a readme file.
 ![Project Image](utils/readme.png)
-youtube.com
+
+www.google.com
 
 ## Contributors
 ---
@@ -30,7 +31,7 @@ Justus Schoppmann
 
 ## Tests
 ---
-No tests
+No tests used
 
 ## Questions
 ---
@@ -42,8 +43,8 @@ N/A
 
 ## License
 ---
-[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl.html)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-  ReadME Generator is distributed under the GPL license.
-  More information can be found here: https://www.gnu.org/licenses/gpl.html
+  ReadME Generator is distributed under the MIT license.
+  More information can be found here: https://opensource.org/licenses/MIT
   
