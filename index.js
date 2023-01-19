@@ -37,8 +37,18 @@ const questionsArray = [
     },
     {
         type: "input",
+        name: "projectImage",
+        message: "Add an image to the image folder then enter the image name here."
+    },    
+    {
+        type: "input",
+        name: "projectVideo",
+        message: "Add a video link to showcase a demo of your project."
+    },  
+    {
+        type: "input",
         name: "tests",
-        message: "Provide what tests were implemented for the projects success."
+        message: "Provide what tests were implemented for the project's success."
     },
     {
         type: "input",
