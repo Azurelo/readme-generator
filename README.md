@@ -1,9 +1,9 @@
-# 3423
+# ReadME Generator
 
 ## Description
 ---
-34234
-
+This application takes user input and creates a readme file.
+readme.png
 ## 📝 Table of Contents
 ---
 - <a href="#description">Description</a>
@@ -16,32 +16,34 @@
 
 ## Installation
 ---
-4323
+Download Node version 16 or lower and run node i inquirer in command line.
 
 ## Usage
 ---
-324324
+Run node index.js in the command line and input information wanted on the readme file.
+![Project Image](utils/readme.png)
+youtube.com
 
 ## Contributors
 ---
-34
+Justus Schoppmann
 
 ## Tests
 ---
-234
+No tests
 
 ## Questions
 ---
-Visit https://github.com/324/ or contact 234 for any questions.
+Visit https://github.com/Azurelo/ or contact justusschoppmann@yahoo.com for any questions.
 
 ## Link
 ---
-324234
+N/A
 
 ## License
 ---
-[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl.html)
 
-  3423 is distributed under the Apache license.
-  More information can be found here: https://opensource.org/licenses/Apache-2.0
+  ReadME Generator is distributed under the GPL license.
+  More information can be found here: https://www.gnu.org/licenses/gpl.html
   
